@@ -1,16 +1,57 @@
-# React + Vite
+# TeamFlow Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Kanban-style project management dashboard built using React. This application helps teams manage tasks efficiently by providing clear visibility of workflow stages.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Drag and Drop functionality (Kanban Board)
+* Task organization into To Do, In Progress, and Done
+* Dark / Light Mode toggle
+* Persistent data using LocalStorage
+* Modern UI with smooth animations and glassmorphism design
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Problem Statement
 
-## Expanding the ESLint configuration
+In many teams, managing tasks and tracking progress becomes difficult due to lack of proper visibility and workflow structure.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project solves that problem by providing a simple and interactive dashboard where users can visually manage tasks across different stages.
+
+
+# Solution
+
+TeamFlow Dashboard provides a Kanban-based interface where tasks can be:
+
+* Easily created
+* Moved across stages using drag and drop
+* Persisted even after page reload
+
+This improves productivity and workflow clarity.
+
+
+# Tech Stack
+
+* React (Frontend)
+* @dnd-kit (Drag & Drop)
+* CSS (Custom Styling)
+* LocalStorage (Data Persistence)
+* Lucide Icons
+
+## Learning Outcomes
+
+* Understanding of React component-based architecture
+* State management and data handling
+* Implementing drag-and-drop interactions
+* Designing modern and responsive UI
+
+## Future Improvements
+
+* Modal-based task creation (instead of prompt)
+* Task priority (High / Medium / Low)
+* Charts for analytics
+* Backend integration
+
+
+## Author
+
+Ayushi Kushwaha
